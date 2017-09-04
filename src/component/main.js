@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Header from './header.js'
-
+import Console from './console.js'
 
 
 class Main extends React.Component {
@@ -12,7 +12,7 @@ class Main extends React.Component {
             currentState: 'cons'
         }
         this.components = {
-            cons: <p>cons</p>, 
+            cons: <Console></Console>, 
             net: <p>net</p>,
             timeline: <p>timeline</p>,
             ele: <p>ele</p>,
