@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import Header from './header.js'
 import Console from './console.js'
+import Network from './network.js'
 
 
 class Main extends React.Component {
@@ -12,8 +13,8 @@ class Main extends React.Component {
             currentState: 'cons'
         }
         this.components = {
-            cons: <Console></Console>, 
-            net: <p>net</p>,
+            cons: <Console></Console>,
+            net: <Network></Network>,
             timeline: <p>timeline</p>,
             ele: <p>ele</p>,
             store: <p>store</p>,
